@@ -19,15 +19,17 @@
     "store_id": "1",
     "items": {
       "0": {
-        "name": "Товар №1",
-        "identifier": "",
+        "name": "MP5A4",
+        "identifier": "1318558775",
         "amount": "1",
-        "type": "",
+        "type": "item",
         "product_id": "1",
-        "images": "ссылка на картинку"
+        "images": "https://rustlabs.com/img/items180/smg.mp5.png"
       },
       "1": {
-        "name": "Товар №2",
+        "name": "VIP",
+        "amount": "1",
+        "type": "command",
         "product_id": "2",
         "images": "ссылка на картинку"
       }
