@@ -1,16 +1,15 @@
-### Запрос
+### Request
 ```json
 [
   {
-    "key": "ключ",
-    "steam_id": "76561198034168225",
-    "store_id": "1"
+    "key": "api key",
+    "steam_id": "player's steam id",
+    "store_id": "store id"
   }
 ]
 ```
 
-### Ответ
-
+### Response
 ```json
 [
   {
