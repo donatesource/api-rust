@@ -9,6 +9,12 @@
 ]
 ```
 
+key - Unique shop key.
+
+steam_id - ...
+
+store_id - The unique ID of the store.
+
 ### Response
 ```json
 [
