@@ -18,28 +18,38 @@ store_id - The unique ID of the store.
 ### Response
 ```json
 [
-  {
-    "steam_id": "76561198034168225",
-    "balance": "1560",
-    "store_id": "1",
-    "items": {
-      "0": {
-        "name": "MP5A4",
-        "identifier": "1318558775",
-        "amount": "1",
-        "type": "item",
-        "product_id": "1",
-        "images": "https://rustlabs.com/img/items180/smg.mp5.png"
-      },
-      "1": {
-        "name": "VIP",
-        "amount": "1",
-        "type": "command",
-        "product_id": "2",
-        "images": "ссылка на картинку"
-      }
-    }
-  }
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Товар 1",
+            "contents": "Описание 1",
+            "shop_id": "1",
+            "identifier": "Айди товара",
+            "price": "100",
+            "categories": "1",
+            "type": "1",
+            "servers": "1",
+            "quantity": "1",
+            "discount": "10",
+            "active": "1"
+        },
+        {
+            "id": 2,
+            "name": "Товар 2",
+            "contents": "Описание2 ",
+            "shop_id": "2",
+            "identifier": "Айди товара",
+            "price": "200",
+            "categories": "1",
+            "type": "1",
+            "servers": "1",
+            "quantity": "1",
+            "discount": "10",
+            "active": "0"
+        }
+    ]
+}
 ]
 ```
 1. steam_id - стим айди игрока.
