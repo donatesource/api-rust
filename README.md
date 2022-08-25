@@ -21,7 +21,7 @@ steam_id - The Steam ID of the player.
   {
     "id": "store id",
     "steam_id": "player's steam id",
-    "data": [
+    "products": [
         {
             "id": 1,
             "name": "Product №1",
