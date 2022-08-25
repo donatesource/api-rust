@@ -19,8 +19,8 @@ steam_id - The Steam ID of the player.
 ```json
 [
   {
-    "id": "1",
-    "steam_id": "76561198034168225",
+    "id": "store id",
+    "steam_id": "player's steam id",
     "data": [
         {
             "id": 1,
