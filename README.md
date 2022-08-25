@@ -18,38 +18,22 @@ steam_id - The Steam ID of the player.
 ### Response
 ```json
 [
-{
-    "items": [
+  {
+    "id": "1",
+    "steam_id": "76561198034168225",
+    "data": [
         {
             "id": 1,
-            "name": "Товар 1",
-            "contents": "Описание 1",
-            "shop_id": "1",
-            "identifier": "Айди товара",
-            "price": "100",
-            "categories": "1",
-            "type": "1",
-            "servers": "1",
-            "quantity": "1",
-            "discount": "10",
-            "active": "1"
+            "name": "Product №1",
+            "price": "100"
         },
         {
             "id": 2,
-            "name": "Товар 2",
-            "contents": "Описание2 ",
-            "shop_id": "2",
-            "identifier": "Айди товара",
-            "price": "200",
-            "categories": "1",
-            "type": "1",
-            "servers": "1",
-            "quantity": "1",
-            "discount": "10",
-            "active": "0"
+            "name": "Product №2",
+            "price": "200"
         }
     ]
-}
+  }
 ]
 ```
 1. steam_id - стим айди игрока.
