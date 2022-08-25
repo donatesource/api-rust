@@ -2,18 +2,18 @@
 ```json
 [
   {
-    "key": "api key",
-    "steam_id": "player's steam id",
-    "store_id": "store id"
+    "api_key": "api key",
+    "store_id": "store id",
+    "steam_id": "player's steam id"
   }
 ]
 ```
 
-key - Unique shop key.
-
-steam_id - ...
+api_key - Unique shop key.
 
 store_id - The unique ID of the store.
+
+steam_id - The Steam ID of the player.
 
 ### Response
 ```json
